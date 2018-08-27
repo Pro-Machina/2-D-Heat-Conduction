@@ -4,7 +4,7 @@ The two types of methods to find the temperature at each grid-point of a 2D plat
 The problem of 2D heat conduction solved using Python as a tool. The method used in approximating the values of temperature is Gauss Seidel and Analytical formula.
 
 # Motivation
-The analysis of a 44 grid requires to solve 4 equation with 4 unknown and by gauss seidel, manually doing it involves iterating the 4 values about 5 times (as seen in the example shown in the class). It is highly convenient to find out results more accurately and visualising it in a 3D plot using a computer for better understanding. Also analytical method is available which is discussed in the second part.
+The analysis of a 44 grid requires to solve 4 equation with 4 unknown and by gauss seidel, manually doing it involves iterating the 4 values about 5 times. It is highly convenient to find out results more accurately and visualising it in a 3D plot using a computer for better understanding. Also analytical method is available which is discussed in the second part.
 
 # Code Style
 The code is purely written in Python with the use of libraries matplotlib, numpy and math. --------------------------------------------------------
