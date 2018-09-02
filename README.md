@@ -27,7 +27,7 @@ The basic design of the code lies in the problem statement. The given plate / 2D
 
 The temperature of the grid point is calculated using the formula:
 
-    T(i,j) = 14( T(i-1,j) + T(i+1,j) + T(i,j-1) + T(i,j+1) )
+    T(i,j) = 1/4( T(i-1,j) + T(i+1,j) + T(i,j-1) + T(i,j+1) )
 
 Where T(i,j) is the corresponding temperature of grid-point (i,j).
 The above equation is iterated in a loop to find the final values of T(i,j) using Gauss Seidel method.
